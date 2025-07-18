@@ -16,10 +16,10 @@ This proposal outlines the integration of Model Context Protocol (MCP) support d
 
 ## Core Features
 
-### Feature 1: HTTP-based MCP Server
-### Feature 2: CLI MCP Interface  
-### Feature 3: Notebook Management
-### Feature 4: Reactive Notebook Editing
+1. [HTTP-based MCP Server](./feature-1-http-mcp-server.md)
+2. [CLI MCP Interface](./feature-2-cli-mcp-interface.md)
+3. [Notebook Management](./feature-3-notebook-management.md)
+4. [Reactive Notebook Editing](./feature-4-reactive-notebook-editing.md)
 
 ## Integration Benefits
 
