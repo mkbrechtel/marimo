@@ -2,6 +2,8 @@
 
 **Note**: This repository is for organizing work on MCP support that will be contributed back to the mainline marimo project via pull request. We will import the marimo tree and work on it in a git worktree on a feature branch.
 
+**Development**: The actual marimo codebase and implementation work can be found in the `./marimo/` worktree directory on the `marimo/feature/mcp` branch. See `CLAUDE.md` for repository structure and development workflow details.
+
 ## Executive Summary
 
 This proposal outlines the integration of Model Context Protocol (MCP) support directly into marimo, enabling AI assistants and external tools to programmatically control marimo notebooks. By implementing both an HTTP-based MCP server (leveraging marimo's existing ASGI infrastructure) and a CLI-based MCP interface, we will unlock powerful AI-assisted workflows while maintaining marimo's core reactive principles.
